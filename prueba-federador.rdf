@@ -7,32 +7,36 @@
 	<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/A02002834"/>
 	<dct:extent>
 	  <dct:SizeOrDuration>
-		<rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2092</rdf:value>
+		<rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2091</rdf:value>
 	  </dct:SizeOrDuration>
 	</dct:extent>
 	<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-06T00:00:00</dct:issued>
-	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-23T10:47:38</dct:modified>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-01T13:45:39</dct:modified>
 	<dc:language>es</dc:language>
 	<dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon"/>
 	<dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/"/>
 	<foaf:homepage rdf:resource="https://opendata.aragon.es/datos/catalogo"/>
 	<dct:license rdf:resource="https://opendata.aragon.es/terminos"/>
 	<dcat:dataset>
-	  <dcat:Dataset rdf:about="https://opendata.aragon.es/datos/catalogo/dataset/publicaciones-y-anuncios-relacionados-con-el-coronavirus-en-aragon">
-		<dct:identifier>https://opendata.aragon.es/datos/catalogo/dataset/publicaciones-y-anuncios-relacionados-con-el-coronavirus-en-aragon</dct:identifier>
-		<dct:title xml:lang="es">Publicaciones y recursos relacionados con el Coronavirus en Aragón</dct:title>
-		<dct:description xml:lang="es">Publicaciones, recursos y anuncios relacionados con el coronavirus en Aragón ofrecidos en los Boletines Oficiales, en portales, servicios y en las cuentas institucionales (twitter) del Gobierno de Aragón y de diferentes organismos.
-</dct:description>
-		   <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/salud"/>
-		<dcat:keyword>Aragón</dcat:keyword>
-		<dcat:keyword>COVID-19</dcat:keyword>
-		<dcat:keyword>Coronavirus</dcat:keyword>
+	  <dcat:Dataset rdf:about="https://opendata.aragon.es/datos/catalogo/dataset/expedientes-inaga-en-periodo-de-informacion-publica">
+		<dct:identifier>https://opendata.aragon.es/datos/catalogo/dataset/expedientes-inaga-en-periodo-de-informacion-publica</dct:identifier>
+		<dct:title xml:lang="es">INAGA Expedientes en trámites de Participación Pública</dct:title>
+		<dct:description xml:lang="es">Expedientes INAGA que en la actualidad se encuentran en periodo de Participación Pública (trámites de exposición pública o de anuncio público).
+Dichos expedientes permiten la presentación de alegaciones por parte de los ciudadanos en los plazos establecidos.</dct:description>
+		   <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
+		<dcat:keyword>Administración Pública</dcat:keyword>
+		<dcat:keyword>Administración electrónica</dcat:keyword>
+		<dcat:keyword>Expediente</dcat:keyword>
+		<dcat:keyword>Exposición pública</dcat:keyword>
+		<dcat:keyword>Inaga</dcat:keyword>
+		<dcat:keyword>Participación ciudadana</dcat:keyword>
+		<dcat:keyword>Trámites</dcat:keyword>
 		<dct:accrualPeriodicity>
 		  <dct:Frequency>
 			<rdf:value>
 			  <time:DurationDescription>
-			   <rdfs:label>Diaria</rdfs:label>
-         <time:days rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</time:days>
+			   <rdfs:label>Instantánea</rdfs:label>
+         <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</time:minutes>
 			  </time:DurationDescription>
 			</rdf:value>
 		  </dct:Frequency>
@@ -43,130 +47,166 @@
 		<dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon"/>
 			<dcat:distribution>
 			  <dcat:Distribution>
-				   <dct:identifier>http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERLST&amp;BASE=BZHT&amp;DOCS=1-100&amp;SEC=BUSQUEDA_AVANZADA&amp;SORT=-PUBL&amp;SEPARADOR=&amp;%40PUBL-GE=&amp;%40PUBL-LE=&amp;NUMB=&amp;RANG-C=&amp;OLEY-C=&amp;ALEY-C=&amp;FDIS-C=&amp;TITU=&amp;ORGA-C=&amp;TEXT-C=COVID-19+O+CORONAVIRUS+&amp;SECC-C=&amp;SECC=&amp;SUBS-C=</dct:identifier>
-				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERLST&amp;BASE=BZHT&amp;DOCS=1-100&amp;SEC=BUSQUEDA_AVANZADA&amp;SORT=-PUBL&amp;SEPARADOR=&amp;%40PUBL-GE=&amp;%40PUBL-LE=&amp;NUMB=&amp;RANG-C=&amp;OLEY-C=&amp;ALEY-C=&amp;FDIS-C=&amp;TITU=&amp;ORGA-C=&amp;TEXT-C=COVID-19+O+CORONAVIRUS+&amp;SECC-C=&amp;SECC=&amp;SUBS-C=</dcat:accessURL>
-				   		<dct:title xml:lang="es">Publicaciones Oficiales relacionadas con el COVID-19 o Coronavirus </dct:title>
-							<dct:format><dct:IMT rdf:value="text/html" rdfs:label="HTML"/></dct:format><dcat:mediaType>text/html</dcat:mediaType>
-			  </dcat:Distribution>
-			</dcat:distribution>
-			<dcat:distribution>
-			  <dcat:Distribution>
-				   <dct:identifier>http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERLST&amp;OUTPUTMODE=CSV&amp;BASE=BZHT&amp;DOCS=1-100000&amp;SEC=OPENDATABOACSV&amp;SORT=-PUBL&amp;SEPARADOR=&amp;%40PUBL-GE=20190329&amp;%40PUBL-LE=&amp;NUMB=&amp;TEXT-C=COVID-19+O+CORONAVIRUS+&amp;SECC=&amp;SUBS-C=</dct:identifier>
-				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERLST&amp;OUTPUTMODE=CSV&amp;BASE=BZHT&amp;DOCS=1-100000&amp;SEC=OPENDATABOACSV&amp;SORT=-PUBL&amp;SEPARADOR=&amp;%40PUBL-GE=20190329&amp;%40PUBL-LE=&amp;NUMB=&amp;TEXT-C=COVID-19+O+CORONAVIRUS+&amp;SECC=&amp;SUBS-C=</dcat:accessURL>
-				   		<dct:title xml:lang="es">Publicaciones Oficiales relacionadas con el COVID-19 o Coronavirus</dct:title>
+				   <dct:identifier>https://opendata.aragon.es/GA_OD_Core/download?view_id=240&amp;filter_sql=TIPO_PUBLICACION%3D'Informacion%20p%C3%BAblica'%20OR%20TIPO_PUBLICACION%3D'Anuncio%20p%C3%BAblico'&amp;formato=csv</dct:identifier>
+				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://opendata.aragon.es/GA_OD_Core/download?view_id=240&amp;filter_sql=TIPO_PUBLICACION%3D'Informacion%20p%C3%BAblica'%20OR%20TIPO_PUBLICACION%3D'Anuncio%20p%C3%BAblico'&amp;formato=csv</dcat:accessURL>
+				   		<dct:title xml:lang="es">Expedientes INAGA en trámites de Información Pública/ Exposición Pública y de Anuncio Público.</dct:title>
 							<dct:format><dct:IMT rdf:value="text/csv" rdfs:label="CSV"/></dct:format><dcat:mediaType>text/csv</dcat:mediaType>
 			  </dcat:Distribution>
 			</dcat:distribution>
 			<dcat:distribution>
 			  <dcat:Distribution>
-				   <dct:identifier>https://www.aragon.es/coronavirus</dct:identifier>
-				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.aragon.es/coronavirus</dcat:accessURL>
-				   		<dct:title xml:lang="es">Contenido publicado en el portal aragon.es relacionado con el Coronavirus</dct:title>
-							<dct:format><dct:IMT rdf:value="text/html" rdfs:label="HTML"/></dct:format><dcat:mediaType>text/html</dcat:mediaType>
+				   <dct:identifier>https://opendata.aragon.es/GA_OD_Core/download?view_id=240&amp;filter_sql=TIPO_PUBLICACION%3D'Informacion%20p%C3%BAblica'%20OR%20TIPO_PUBLICACION%3D'Anuncio%20p%C3%BAblico'&amp;formato=json</dct:identifier>
+				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://opendata.aragon.es/GA_OD_Core/download?view_id=240&amp;filter_sql=TIPO_PUBLICACION%3D'Informacion%20p%C3%BAblica'%20OR%20TIPO_PUBLICACION%3D'Anuncio%20p%C3%BAblico'&amp;formato=json</dcat:accessURL>
+				   		<dct:title xml:lang="es">Expedientes INAGA en trámites de Información Pública/ Exposición Pública y de Anuncio Público.</dct:title>
+							<dct:format><dct:IMT rdf:value="application/json" rdfs:label="JSON"/></dct:format><dcat:mediaType>application/json</dcat:mediaType>
 			  </dcat:Distribution>
 			</dcat:distribution>
 			<dcat:distribution>
 			  <dcat:Distribution>
-				   <dct:identifier>https://opendata.aragon.es/servicios/open-social-data/#/stats_inst?region=*&amp;start=&amp;end=&amp;term=coronavirus&amp;enlista</dct:identifier>
-				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://opendata.aragon.es/servicios/open-social-data/#/stats_inst?region=*&amp;start=&amp;end=&amp;term=coronavirus&amp;enlista</dcat:accessURL>
-				   		<dct:title xml:lang="es">Tuits publicados en Open Social Data relacionados con el Coronavirus</dct:title>
-							<dct:format><dct:IMT rdf:value="text/html" rdfs:label="HTML"/></dct:format><dcat:mediaType>text/html</dcat:mediaType>
+				   <dct:identifier>http://www.aragon.es/inaga/informacionpublica</dct:identifier>
+				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.aragon.es/inaga/informacionpublica</dcat:accessURL>
+				   		<dct:title xml:lang="es">Aplicación web para la Exposición Pública de Expedientes INAGA </dct:title>
+							<dct:format><dct:IMT rdf:value="text/html" rdfs:label="URL"/></dct:format><dcat:mediaType>text/html</dcat:mediaType>
 			  </dcat:Distribution>
 			</dcat:distribution>
 			<dcat:distribution>
 			  <dcat:Distribution>
-				   <dct:identifier>https://opendata.aragon.es/aosd/get_csv/?terms=coronavirus&amp;terms=USARLISTA</dct:identifier>
-				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://opendata.aragon.es/aosd/get_csv/?terms=coronavirus&amp;terms=USARLISTA</dcat:accessURL>
-				   		<dct:title xml:lang="es">Tuits publicados en Open Social Data relacionados con el Coronavirus</dct:title>
+				   <dct:identifier>http://www.aragon.es/inaga/anunciopublico</dct:identifier>
+				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.aragon.es/inaga/anunciopublico</dcat:accessURL>
+				   		<dct:title xml:lang="es">Aplicación web para el trámite de Anuncio Público de Expedientes INAGA </dct:title>
+							<dct:format><dct:IMT rdf:value="text/html" rdfs:label="URL"/></dct:format><dcat:mediaType>text/html</dcat:mediaType>
+			  </dcat:Distribution>
+			</dcat:distribution>
+			<dcat:distribution>
+			  <dcat:Distribution>
+				   <dct:identifier>http://www.aragon.es/estaticos/GobiernoAragon/Organismos/InstitutoAragonesGestionAmbiental/StaticFiles/cartografia/INAGA_Participacion_Publica.html</dct:identifier>
+				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.aragon.es/estaticos/GobiernoAragon/Organismos/InstitutoAragonesGestionAmbiental/StaticFiles/cartografia/INAGA_Participacion_Publica.html</dcat:accessURL>
+				   		<dct:title xml:lang="es">Visor Localización y Accceso a Expedientes de INAGA en trámites de Participación Pública (exposición pública y anuncio público)</dct:title>
+							<dct:format><dct:IMT rdf:value="text/html" rdfs:label="URL"/></dct:format><dcat:mediaType>text/html</dcat:mediaType>
+			  </dcat:Distribution>
+			</dcat:distribution>
+	  </dcat:Dataset>
+	</dcat:dataset>
+	<dcat:dataset>
+	  <dcat:Dataset rdf:about="https://opendata.aragon.es/datos/catalogo/dataset/alojamientos-hoteleros-en-la-comunidad-autonoma-de-aragon">
+		<dct:identifier>https://opendata.aragon.es/datos/catalogo/dataset/alojamientos-hoteleros-en-la-comunidad-autonoma-de-aragon</dct:identifier>
+		<dct:title xml:lang="es">Alojamientos hoteleros en la Comunidad Autónoma de Aragón</dct:title>
+		<dct:description xml:lang="es">Este conjunto de datos contiene información sobre los alojamientos hoteleros registrados en la Dirección General de Turismo del Gobierno de Aragón. Contiene información sobre hoteles, hostales y pensiones sobre todo a nivel de capacidad y servicios hoteleros.
+</dct:description>
+		   <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/turismo"/>
+		<dcat:keyword>Alojamiento</dcat:keyword>
+		<dcat:keyword>Antigüedad</dcat:keyword>
+		<dcat:keyword>Aragón</dcat:keyword>
+		<dcat:keyword>Cama</dcat:keyword>
+		<dcat:keyword>EI2A</dcat:keyword>
+		<dcat:keyword>Establecimiento</dcat:keyword>
+		<dcat:keyword>Habitación</dcat:keyword>
+		<dcat:keyword>Hostal</dcat:keyword>
+		<dcat:keyword>Hotel</dcat:keyword>
+		<dcat:keyword>Hoteles</dcat:keyword>
+		<dcat:keyword>Pensión</dcat:keyword>
+		<dcat:keyword>Plaza</dcat:keyword>
+		<dcat:keyword>Registro</dcat:keyword>
+		<dcat:keyword>Temporada</dcat:keyword>
+		<dcat:keyword>Turismo</dcat:keyword>
+		<dct:accrualPeriodicity>
+		  <dct:Frequency>
+			<rdf:value>
+			  <time:DurationDescription>
+			   <rdfs:label>Instantánea</rdfs:label>
+         <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</time:minutes>
+			  </time:DurationDescription>
+			</rdf:value>
+		  </dct:Frequency>
+		</dct:accrualPeriodicity>
+		<dc:language>es</dc:language>
+				<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/A02002834"/>
+				<dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+		<dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon"/>
+			<dcat:distribution>
+			  <dcat:Distribution>
+				   <dct:identifier>https://opendata.aragon.es/GA_OD_Core/download?view_id=65&amp;formato=xml&amp;name=Alojamientos%20hoteleros%20en%20la%20Comunidad%20Autónoma%20de%20Aragón</dct:identifier>
+				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://opendata.aragon.es/GA_OD_Core/download?view_id=65&amp;formato=xml&amp;name=Alojamientos%20hoteleros%20en%20la%20Comunidad%20Autónoma%20de%20Aragón</dcat:accessURL>
+				   		<dct:title xml:lang="es">Alojamientos hoteleros en la Comunidad Autónoma de Aragón</dct:title>
+							<dct:format><dct:IMT rdf:value="application/xml" rdfs:label="XML"/></dct:format><dcat:mediaType>application/xml</dcat:mediaType>
+			  </dcat:Distribution>
+			</dcat:distribution>
+			<dcat:distribution>
+			  <dcat:Distribution>
+				   <dct:identifier>https://opendata.aragon.es/GA_OD_Core/download?view_id=65&amp;formato=csv&amp;name=Alojamientos%20hoteleros%20en%20la%20Comunidad%20Autónoma%20de%20Aragón</dct:identifier>
+				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://opendata.aragon.es/GA_OD_Core/download?view_id=65&amp;formato=csv&amp;name=Alojamientos%20hoteleros%20en%20la%20Comunidad%20Autónoma%20de%20Aragón</dcat:accessURL>
+				   		<dct:title xml:lang="es">Alojamientos hoteleros en la Comunidad Autónoma de Aragón</dct:title>
 							<dct:format><dct:IMT rdf:value="text/csv" rdfs:label="CSV"/></dct:format><dcat:mediaType>text/csv</dcat:mediaType>
 			  </dcat:Distribution>
 			</dcat:distribution>
 			<dcat:distribution>
 			  <dcat:Distribution>
-				   <dct:identifier>http://www.aragonhoy.net/index.php/mod.noticias/mem.listadoArea/area.1050/relmenu.9</dct:identifier>
-				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.aragonhoy.net/index.php/mod.noticias/mem.listadoArea/area.1050/relmenu.9</dcat:accessURL>
-				   		<dct:title xml:lang="es">Contenido de aragonhoy.net sobre Salud de la Dirección de Comunicación del Gobierno de Aragón </dct:title>
-							<dct:format><dct:IMT rdf:value="text/html" rdfs:label="HTML"/></dct:format><dcat:mediaType>text/html</dcat:mediaType>
+				   <dct:identifier>https://opendata.aragon.es/GA_OD_Core/download?view_id=65&amp;formato=json&amp;name=Alojamientos%20hoteleros%20en%20la%20Comunidad%20Autónoma%20de%20Aragón</dct:identifier>
+				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://opendata.aragon.es/GA_OD_Core/download?view_id=65&amp;formato=json&amp;name=Alojamientos%20hoteleros%20en%20la%20Comunidad%20Autónoma%20de%20Aragón</dcat:accessURL>
+				   		<dct:title xml:lang="es">Alojamientos hoteleros en la Comunidad Autónoma de Aragón</dct:title>
+							<dct:format><dct:IMT rdf:value="application/json" rdfs:label="JSON"/></dct:format><dcat:mediaType>application/json</dcat:mediaType>
 			  </dcat:Distribution>
 			</dcat:distribution>
+	  </dcat:Dataset>
+	</dcat:dataset>
+	<dcat:dataset>
+	  <dcat:Dataset rdf:about="https://opendata.aragon.es/datos/catalogo/dataset/educacion-infantil-1-ciclo-0-3-anyos-alumnado-usuario-de-los-servicios-complementarios-municipios">
+		<dct:identifier>https://opendata.aragon.es/datos/catalogo/dataset/educacion-infantil-1-ciclo-0-3-anyos-alumnado-usuario-de-los-servicios-complementarios-municipios</dct:identifier>
+		<dct:title xml:lang="es">Educación Infantil 1º Ciclo (0-3 años). Alumnado usuario de los servicios complementarios. Municipios</dct:title>
+		<dct:description xml:lang="es">Se recoge información sobre centros, unidades, profesorado y alumnado matriculado en E. Infantil, E. Primaria, ESO, Bachillerato, Ciclos Formativos, PCPI, E.Especial, educación de adultos y a distancia.</dct:description>
+		   <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/educacion"/>
+		<dcat:keyword>Alumnos</dcat:keyword>
+		<dcat:keyword>Aragón</dcat:keyword>
+		<dcat:keyword>Centros</dcat:keyword>
+		<dcat:keyword>Dato estadístico</dcat:keyword>
+		<dcat:keyword>Educación</dcat:keyword>
+		<dcat:keyword>Enseñanza</dcat:keyword>
+		<dcat:keyword>Infantil</dcat:keyword>
+		<dcat:keyword>Primaria</dcat:keyword>
+		<dcat:keyword>Profesores</dcat:keyword>
+		<dcat:keyword>Secundaria</dcat:keyword>
+		<dcat:keyword>Unidad</dcat:keyword>
+		<dc:language>es</dc:language>
+				<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/A02002834"/>
+				<dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+		<dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon"/>
 			<dcat:distribution>
 			  <dcat:Distribution>
-				   <dct:identifier>http://aragonhoy.aragon.es/index.php/mod.documentos/mem.rss</dct:identifier>
-				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://aragonhoy.aragon.es/index.php/mod.documentos/mem.rss</dcat:accessURL>
-				   		<dct:title xml:lang="es">Contenido de aragonhoy.net sobre Salud de la Dirección de Comunicación del Gobierno de Aragón </dct:title>
-							<dct:format><dct:IMT rdf:value="application/rss+xml" rdfs:label="RSS"/></dct:format><dcat:mediaType>application/rss+xml</dcat:mediaType>
+				   <dct:identifier>https://bi.aragon.es/analytics/saw.dll?Go&amp;path=/shared/IAEST-PUBLICA/MENUWEB/Sociales/060101/06010111/INF_1%C2%BAC-5.3&amp;Action=Navigate&amp;NQUser=granpublico&amp;NQPassword=granpublico&amp;Options=df</dct:identifier>
+				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://bi.aragon.es/analytics/saw.dll?Go&amp;path=/shared/IAEST-PUBLICA/MENUWEB/Sociales/060101/06010111/INF_1%C2%BAC-5.3&amp;Action=Navigate&amp;NQUser=granpublico&amp;NQPassword=granpublico&amp;Options=df</dcat:accessURL>
+				   		<dct:title xml:lang="es">EI1_SC_M</dct:title>
+							<dct:format><dct:IMT rdf:value="application/vnd.ms-excel" rdfs:label="XLS"/></dct:format><dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
 			  </dcat:Distribution>
 			</dcat:distribution>
+	  </dcat:Dataset>
+	</dcat:dataset>
+	<dcat:dataset>
+	  <dcat:Dataset rdf:about="https://opendata.aragon.es/datos/catalogo/dataset/educacion-infantil-1-ciclo-0-3-anyos-alumnado-extranjero-matriculado-por-continente-de-origen-y-sexo-del-alumnado-comarcas">
+		<dct:identifier>https://opendata.aragon.es/datos/catalogo/dataset/educacion-infantil-1-ciclo-0-3-anyos-alumnado-extranjero-matriculado-por-continente-de-origen-y-sexo-del-alumnado-comarcas</dct:identifier>
+		<dct:title xml:lang="es">Educación Infantil 1º Ciclo (0-3 años). Alumnado extranjero matriculado por continente de origen y sexo del alumnado. Comarcas</dct:title>
+		<dct:description xml:lang="es">Se recoge información sobre centros, unidades, profesorado y alumnado matriculado en E. Infantil, E. Primaria, ESO, Bachillerato, Ciclos Formativos, PCPI, E.Especial, educación de adultos y a distancia.</dct:description>
+		   <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/educacion"/>
+		<dcat:keyword>Alumnos</dcat:keyword>
+		<dcat:keyword>Aragón</dcat:keyword>
+		<dcat:keyword>Centros</dcat:keyword>
+		<dcat:keyword>Dato estadístico</dcat:keyword>
+		<dcat:keyword>Educación</dcat:keyword>
+		<dcat:keyword>Enseñanza</dcat:keyword>
+		<dcat:keyword>Infantil</dcat:keyword>
+		<dcat:keyword>Primaria</dcat:keyword>
+		<dcat:keyword>Profesores</dcat:keyword>
+		<dcat:keyword>Secundaria</dcat:keyword>
+		<dcat:keyword>Unidad</dcat:keyword>
+		<dc:language>es</dc:language>
+				<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/A02002834"/>
+				<dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+		<dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon"/>
 			<dcat:distribution>
 			  <dcat:Distribution>
-				   <dct:identifier>https://www.aragon.es/documents/20127/38742837/casos_coronavirus_aragon.xlsx</dct:identifier>
-				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.aragon.es/documents/20127/38742837/casos_coronavirus_aragon.xlsx</dcat:accessURL>
-				   		<dct:title xml:lang="es">Aragón: Datos y cifras acumuladas diarias sobre el Coronavirus. Fuente Aragón Hoy</dct:title>
-							<dct:format><dct:IMT rdf:value="application/vnd.ms-excel" rdfs:label="XLSX"/></dct:format><dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
-			  </dcat:Distribution>
-			</dcat:distribution>
-			<dcat:distribution>
-			  <dcat:Distribution>
-				   <dct:identifier>https://www.aragon.es/documents/20127/38742837/casos_coronavirus_aragon.csv</dct:identifier>
-				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.aragon.es/documents/20127/38742837/casos_coronavirus_aragon.csv</dcat:accessURL>
-				   		<dct:title xml:lang="es">Aragón: Datos y cifras acumuladas diarias sobre el Coronavirus. Fuente Aragón Hoy</dct:title>
-							<dct:format><dct:IMT rdf:value="text/csv" rdfs:label="CSV"/></dct:format><dcat:mediaType>text/csv</dcat:mediaType>
-			  </dcat:Distribution>
-			</dcat:distribution>
-			<dcat:distribution>
-			  <dcat:Distribution>
-				   <dct:identifier>https://www.aragon.es/documents/20127/38742837/casos_coronavirus_provincias.xlsx</dct:identifier>
-				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.aragon.es/documents/20127/38742837/casos_coronavirus_provincias.xlsx</dcat:accessURL>
-				   		<dct:title xml:lang="es">Provincias: Datos y cifras acumuladas diarias sobre el Coronavirus. Fuente Aragón Hoy</dct:title>
-							<dct:format><dct:IMT rdf:value="application/vnd.ms-excel" rdfs:label="XLSX"/></dct:format><dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
-			  </dcat:Distribution>
-			</dcat:distribution>
-			<dcat:distribution>
-			  <dcat:Distribution>
-				   <dct:identifier>https://www.aragon.es/documents/20127/38742837/casos_coronavirus_provincias.csv</dct:identifier>
-				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.aragon.es/documents/20127/38742837/casos_coronavirus_provincias.csv</dcat:accessURL>
-				   		<dct:title xml:lang="es">Provincias: Datos y cifras acumuladas diarias sobre el Coronavirus. Fuente Aragón Hoy</dct:title>
-							<dct:format><dct:IMT rdf:value="text/csv" rdfs:label="CSV"/></dct:format><dcat:mediaType>text/csv</dcat:mediaType>
-			  </dcat:Distribution>
-			</dcat:distribution>
-			<dcat:distribution>
-			  <dcat:Distribution>
-				   <dct:identifier>https://www.aragon.es/documents/20127/38742837/casos_coronavirus_hospitales.xlsx</dct:identifier>
-				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.aragon.es/documents/20127/38742837/casos_coronavirus_hospitales.xlsx</dcat:accessURL>
-				   		<dct:title xml:lang="es">Hospitales: Ocupación camas de pacientes relacionados Coronavirus en Hospitales de Aragón. Fuente Aragón Hoy</dct:title>
-							<dct:format><dct:IMT rdf:value="application/vnd.ms-excel" rdfs:label="XLSX"/></dct:format><dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
-			  </dcat:Distribution>
-			</dcat:distribution>
-			<dcat:distribution>
-			  <dcat:Distribution>
-				   <dct:identifier>https://www.aragon.es/documents/20127/38742837/casos_coronavirus_hospitales.csv</dct:identifier>
-				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.aragon.es/documents/20127/38742837/casos_coronavirus_hospitales.csv</dcat:accessURL>
-				   		<dct:title xml:lang="es">Hospitales: Ocupación camas de pacientes relacionados Coronavirus en Hospitales de Aragón. Fuente Aragón Hoy</dct:title>
-							<dct:format><dct:IMT rdf:value="text/csv" rdfs:label="CSV"/></dct:format><dcat:mediaType>text/csv</dcat:mediaType>
-			  </dcat:Distribution>
-			</dcat:distribution>
-			<dcat:distribution>
-			  <dcat:Distribution>
-				   <dct:identifier>https://www.aragon.es/documents/20127/38742837/casos_coronavirus_profesionales.xlsx</dct:identifier>
-				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.aragon.es/documents/20127/38742837/casos_coronavirus_profesionales.xlsx</dcat:accessURL>
-				   		<dct:title xml:lang="es">Profesionales sanitarios: Casos confirmados en profesionales sanitarios Coronavirus en Aragón. Fuente Aragón Hoy</dct:title>
-							<dct:format><dct:IMT rdf:value="application/vnd.ms-excel" rdfs:label="XLSX"/></dct:format><dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
-			  </dcat:Distribution>
-			</dcat:distribution>
-			<dcat:distribution>
-			  <dcat:Distribution>
-				   <dct:identifier>https://www.aragon.es/documents/20127/38742837/casos_coronavirus_profesionales.csv</dct:identifier>
-				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.aragon.es/documents/20127/38742837/casos_coronavirus_profesionales.csv</dcat:accessURL>
-				   		<dct:title xml:lang="es">Profesionales sanitarios: Casos confirmados en profesionales sanitarios Coronavirus en Aragón. Fuente Aragón Hoy</dct:title>
-							<dct:format><dct:IMT rdf:value="text/csv" rdfs:label="CSV"/></dct:format><dcat:mediaType>text/csv</dcat:mediaType>
-			  </dcat:Distribution>
-			</dcat:distribution>
-			<dcat:distribution>
-			  <dcat:Distribution>
-				   <dct:identifier>https://www.aragon.es/en/-/procedimiento-de-actuacion-frente-a-casos-de-infeccion-por-el-nuevo-coronavirus-en-aragon#anchor1</dct:identifier>
-				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.aragon.es/en/-/procedimiento-de-actuacion-frente-a-casos-de-infeccion-por-el-nuevo-coronavirus-en-aragon#anchor1</dcat:accessURL>
-				   		<dct:title xml:lang="es">Situación asistencial y epidemiológica COVID-19 en Aragón Dir Gral de Asistencia Sanitaria y Dir Gral Salud Pública</dct:title>
-							<dct:format><dct:IMT rdf:value="application/vnd.ms-excel" rdfs:label="XLSX"/></dct:format><dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+				   <dct:identifier>https://bi.aragon.es/analytics/saw.dll?Go&amp;path=/shared/IAEST-PUBLICA/MENUWEB/Sociales/060101/06010111/INF_1%C2%BAC-8.2&amp;Action=Navigate&amp;NQUser=granpublico&amp;NQPassword=granpublico&amp;Options=df</dct:identifier>
+				   <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://bi.aragon.es/analytics/saw.dll?Go&amp;path=/shared/IAEST-PUBLICA/MENUWEB/Sociales/060101/06010111/INF_1%C2%BAC-8.2&amp;Action=Navigate&amp;NQUser=granpublico&amp;NQPassword=granpublico&amp;Options=df</dcat:accessURL>
+				   		<dct:title xml:lang="es">EI1_EXT_XCYS_C</dct:title>
+							<dct:format><dct:IMT rdf:value="application/vnd.ms-excel" rdfs:label="XLS"/></dct:format><dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
 			  </dcat:Distribution>
 			</dcat:distribution>
 	  </dcat:Dataset>
